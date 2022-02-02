@@ -5,17 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <meta name="theme-color" content="white">
+  <title>RuneScape Information</title>
+  <link rel="icon" type="image/png" sizes="196x196" href="/favicon-196.png">
+  <link rel="apple-touch-icon" href="public/apple-icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 </head>
 
 <body>
   <div id="app">
-    <hejsan></hejsan>
+    <prop name="hejsan"></prop>
+    <main>
+      <router-view></router-view>
+    </main>
   </div>
-
-  <script src="https://unpkg.com/vue@next"></script>
-  <script src="index.js"></script>
+  <script src="/src/main.js" type="module"></script>
 </body>
 
 </html>
